@@ -21,7 +21,7 @@ To use the AntiXSS Middleware in your Asp .NET Core application, follow these st
    
     ```csharp
       // call the middleware here
-      app.UseMiddleware&lt;AntiXssMiddleware&gt;();
+      app.UseMiddleware<AntiXssMiddleware>();
 
       app.Run();
      ```
